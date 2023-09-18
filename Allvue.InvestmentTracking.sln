@@ -9,9 +9,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{C74A49CA-018E-4499-8A57-FC8F1B44D465}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Allvue.DataAccess.Contracts", "DataAccess\Allvue.DataAccess.Contracts\Allvue.DataAccess.Contracts.csproj", "{88ED50E3-5AB4-49BC-A912-7F016DED76D7}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88ED50E3-5AB4-49BC-A912-7F016DED76D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88ED50E3-5AB4-49BC-A912-7F016DED76D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88ED50E3-5AB4-49BC-A912-7F016DED76D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88ED50E3-5AB4-49BC-A912-7F016DED76D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{88ED50E3-5AB4-49BC-A912-7F016DED76D7} = {C38BC08F-DE8E-4B75-9473-1AE4619564C1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {31D2EE08-579E-441E-B9EA-03EFC5E92032}
