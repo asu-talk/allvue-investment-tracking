@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Allvue.Investment.Tracking.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Allvue.DataAccess.InMemory", "DataAccess\Allvue.DataAccess.InMemory\Allvue.DataAccess.InMemory.csproj", "{36D79F5D-9556-4237-A299-AC8273AE25F3}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Allvue.ProfitCalculator", "Clients\Allvue.ProfitCalculator\Allvue.ProfitCalculator.csproj", "{006EFE52-7F1A-4FFC-84AF-361D17DEAFD6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{36D79F5D-9556-4237-A299-AC8273AE25F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36D79F5D-9556-4237-A299-AC8273AE25F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36D79F5D-9556-4237-A299-AC8273AE25F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{006EFE52-7F1A-4FFC-84AF-361D17DEAFD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{006EFE52-7F1A-4FFC-84AF-361D17DEAFD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{006EFE52-7F1A-4FFC-84AF-361D17DEAFD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{006EFE52-7F1A-4FFC-84AF-361D17DEAFD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +54,7 @@ Global
 		{81ED1474-B2D4-42CF-844C-A1E68F741230} = {C74A49CA-018E-4499-8A57-FC8F1B44D465}
 		{C6D1F5C2-185C-4309-8267-13FBE28C4D15} = {C74A49CA-018E-4499-8A57-FC8F1B44D465}
 		{36D79F5D-9556-4237-A299-AC8273AE25F3} = {C38BC08F-DE8E-4B75-9473-1AE4619564C1}
+		{006EFE52-7F1A-4FFC-84AF-361D17DEAFD6} = {E3A52298-FC78-4B90-B024-612DCEBDB43D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {31D2EE08-579E-441E-B9EA-03EFC5E92032}
