@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Allvue.DataAccess.Contracts
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Allvue.Investment.Tracking", "Domain\Allvue.Investment.Tracking\Allvue.Investment.Tracking.csproj", "{81ED1474-B2D4-42CF-844C-A1E68F741230}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Allvue.Investment.Tracking.Tests", "Domain\Allvue.Investment.Tracking.Tests\Allvue.Investment.Tracking.Tests.csproj", "{C6D1F5C2-185C-4309-8267-13FBE28C4D15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{81ED1474-B2D4-42CF-844C-A1E68F741230}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81ED1474-B2D4-42CF-844C-A1E68F741230}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81ED1474-B2D4-42CF-844C-A1E68F741230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6D1F5C2-185C-4309-8267-13FBE28C4D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6D1F5C2-185C-4309-8267-13FBE28C4D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6D1F5C2-185C-4309-8267-13FBE28C4D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6D1F5C2-185C-4309-8267-13FBE28C4D15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{88ED50E3-5AB4-49BC-A912-7F016DED76D7} = {C38BC08F-DE8E-4B75-9473-1AE4619564C1}
 		{81ED1474-B2D4-42CF-844C-A1E68F741230} = {C74A49CA-018E-4499-8A57-FC8F1B44D465}
+		{C6D1F5C2-185C-4309-8267-13FBE28C4D15} = {C74A49CA-018E-4499-8A57-FC8F1B44D465}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {31D2EE08-579E-441E-B9EA-03EFC5E92032}
